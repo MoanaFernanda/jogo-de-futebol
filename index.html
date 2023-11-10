@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time de Futebol Fictício</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Atlético de Belo Jardim FC </h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#tabela">Tabela de Jogos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Time</h2>
+        <p>Fundado em 1975, o Atlético de Belo Jardim tem uma rica história no cenário do futebol no agreste Pernambucano. Originado em uma pequena cidade, o clube cresceu para se tornar uma potência nacional, vencendo vários campeonatos e construindo uma base de fãs apaixonada.</p>
+    </section>
+
+    <section id="tabela">
+        <h2>Tabela de Jogos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Adversário</th>
+                    <th>Local</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01/12/2023</td>
+                    <td>Palmeiras</td>
+                    <td>Casa</td>
+                </tr>
+                <tr>
+                    <td>05/12/2023</td>
+                    <td>São Paulo</td>
+                    <td>Fora</td>
+                </tr>
+                <tr>
+                    <td>10/12/2023</td>
+                    <td>Flamengo</td>
+                    <td>Casa</td>
+                </tr>
+                <tr>
+                    <td>15/12/2023</td>
+                    <td>Sport</td>
+                    <td>Fora</td>
+                </tr>
+                <tr>
+                    <td>20/12/2023</td>
+                    <td>Náutico</td>
+                    <td>Casa</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+</body>
+</html>
